@@ -83,7 +83,7 @@ Because the data files are too large for GitHub, the complete processed datasets
 
 The data used in this project is public and was collected from national and international institutions:
 
-* **Crime Dataset:** Collected from the open data portal of the **Organismo de Investigación Judicial (OIJ)** of Costa Rica \[[1](https://sitiooij.poder-judicial.go.cr/index.php/ayuda/servicios-policiales/servicios-a-organizaciones/indice-de-transparencia-del-sector-publico-costarricense/datos-abiertos), [2](https://sitiooij.poder-judicial.go.cr/index.php/ayuda/servicios-policiales/servicios-a-organizaciones/indice-de-transparencia-del-sector-publico-costarricense/datos-abiertos)\]. This data covers the years 2015 to 2025. **OpenRefine** was used to clean and merge the files.
+* **Crime Dataset:** Collected from the open data portal of the **Organismo de Investigación Judicial (OIJ)** of Costa Rica \[[1](https://sitiooij.poder-judicial.go.cr/index.php/ayuda/servicios-policiales/servicios-a-organizaciones/indice-de-transparencia-del-sector-publico-costarricense/datos-abiertos). This data covers the years 2015 to 2025. **OpenRefine** was used to clean and merge the files.
 * **Demographic Data:** Sourced from the Costa Rican **Instituto Nacional de Estadística y Censos (INEC)** website \[[3](https://inec.cr/estadisticas-fuentes)\] to get population numbers.
 * **Socioeconomic Indicators:** Downloaded from the **World Bank Database** \[[4](https://data.worldbank.org/country/costa-rica)\] to add macroeconomic context for the regression analysis.
 

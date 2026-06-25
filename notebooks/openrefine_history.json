@@ -1,0 +1,355 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Distrito",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CANAS DULCES",
+          "CAÑAS DULCES"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CAÑAS DULCES"
+      },
+      {
+        "from": [
+          "POTRERO GRANDE",
+          "POTRERO  GRANDE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "POTRERO GRANDE"
+      },
+      {
+        "from": [
+          "PENAS BLANCAS",
+          "PEÑAS BLANCAS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PEÑAS BLANCAS"
+      },
+      {
+        "from": [
+          "CANAS",
+          "CAÑAS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CAÑAS"
+      }
+    ],
+    "description": "Mass edit cells in column Distrito"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Canton",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CANAS",
+          "CAÑAS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CAÑAS"
+      }
+    ],
+    "description": "Mass edit cells in column Canton"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Nacionalidad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "REPUBLICA CHECA",
+          "CHECA, REPUBLICA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "REPUBLICA CHECA"
+      },
+      {
+        "from": [
+          "CENTROAFRICANA, REPUBLICA",
+          "REPUBLICA CENTROAFRICANA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "REPUBLICA CENTROAFRICANA"
+      },
+      {
+        "from": [
+          "ESPANA",
+          "ESPAÑA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ESPAÑA"
+      },
+      {
+        "from": [
+          "DOMINICANA, REPUBLICA",
+          "REPUBLICA DOMINICANA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "REPUBLICA DOMINICANA"
+      }
+    ],
+    "description": "Mass edit cells in column Nacionalidad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Genero",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DESCONOCIDO",
+          "Desconocido"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DESCONOCIDO"
+      }
+    ],
+    "description": "Mass edit cells in column Genero"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Fecha using expression value.toDate()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Nacionalidad",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Nacionalidad using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Genero",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Genero using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Delito",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Delito using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "SubDelito",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column SubDelito using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Provincia",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Provincia using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Distrito",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Distrito using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Canton",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Canton using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Victima",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Victima using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "SubVictima",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column SubVictima using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha",
+    "guessCellType": true,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": "-",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column Fecha by separator"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha 3",
+    "expression": "grel:value.replace(/T.*/,\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Fecha 3 using expression grel:value.replace(/T.*/,\"\")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Fecha 1",
+    "newColumnName": "Año",
+    "description": "Rename column Fecha 1 to Año"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Fecha 2",
+    "newColumnName": "Mes",
+    "description": "Rename column Fecha 2 to Mes"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Fecha 3",
+    "newColumnName": "Dia",
+    "description": "Rename column Fecha 3 to Dia"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Fecha 4",
+    "description": "Remove column Fecha 4"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Mes",
+          "expression": "value",
+          "columnName": "Mes",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Dia",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Dia using expression value.toDate()"
+  }
+]

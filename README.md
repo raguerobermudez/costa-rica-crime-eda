@@ -12,9 +12,39 @@
 
 This project is a remake of an old project I originally built for a university course called **"Análisis de Grandes Volúmenes de Datos" (Big Data Analysis)**. The first version had some problems with methodology and how the data was interpreted. I decided to rebuild this project from scratch to fix those past mistakes, improve the data pipeline, and create a better analysis.
 
-The main goal of this project is to conduct a basic Exploratory Data Analysis (EDA) of crime trends in Costa Rica between 2015 and 2025. The analysis is based on publicly available crime records provided by the Organismo de Investigación Judicial (OIJ).
+The goal is to perform an exploratory analysis of crime trends in Costa Rica between 2015 and 2025 using public crime records from the Organismo de Investigación Judicial (OIJ), demographic data from INEC, and socioeconomic indicators from the World Bank.
+
+The project includes data cleaning, visualization, crime-rate normalization, correlation analysis, and regression modeling to explore potential relationships between crime patterns, demographic characteristics, and socioeconomic conditions.
 
 Due to the limited contextual information available in the public datasets, individual incidents cannot be examined in detail. Therefore, the data should be interpreted as an aggregated collection of crimes reported and recorded by the OIJ during the study period. The objective is not to determine causality but rather to identify temporal patterns, geographic differences, and potential relationships between crime rates and demographic indicators across Costa Rican provinces.
+
+### Key Findings
+
+- Crime patterns vary considerably across provinces.
+- Coastal provinces, particularly **Limón** and **Puntarenas**, consistently exhibit higher homicide, robbery, and theft rates.
+- Vehicle-related crimes have become increasingly important in provinces such as **Heredia** and **Alajuela**.
+- Homicide follows a different trajectory from most other crimes, increasing steadily after 2019.
+- Population growth shows stronger associations with crime rates than population density.
+- Several socioeconomic indicators display moderate to strong correlations with crime rates; however, many of these relationships weaken after controlling for temporal trends through regression analysis.
+- Vehicle theft and vehicle breaking and entering show the strongest evidence of sensitivity to short-term economic changes.
+
+### Main Technologies
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Statsmodels
+- OpenRefine
+- Jupyter Notebook
+
+### Analytical Techniques
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Crime Rate Normalization
+- Correlation Analysis
+- Regression Analysis
+- Trend Analysis
 
 ## Requirements
 

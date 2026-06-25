@@ -1,0 +1,10 @@
+numpy
+scipy
+matplotlib
+seaborn
+statsmodels
+dataframe-image
+openpyxl
+gdown
+ipykernel
+jupyter

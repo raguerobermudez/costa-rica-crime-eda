@@ -1,11 +1,6 @@
 # Costa Rica Crime & Socioeconomic Analysis (2015–2025)
 
-* **Author:** Randy Agüero Bermúdez
-
-* **Role:** B.S. in Computing (Computer Science), University of Costa Rica
-
-
-
+* **Author:** Randy Agüero Bermúdez. B.S. in Computer Science, University of Costa Rica
 
 ## Project Overview
 
